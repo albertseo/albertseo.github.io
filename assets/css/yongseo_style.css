@@ -1,0 +1,100 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+#landing-photo-wrapper {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    background-color: #C4C4C4;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#landing-photo-name {
+  position: absolute;
+  font-size: 50px;
+  right: 30px;
+  bottom: 25px;
+  color: #424242;
+  font-family: 'Roboto', sans-serif;
+}
+
+#landing-photo-description-wrapper {
+  position: relative;
+  padding-top: 10px;
+}
+
+#ld-photo-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#ld-photo-text {
+  font-family: 'Roboto', sans-serif;
+  width: 785px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10 auto 100 auto;
+}
+
+.photo-card-wrapper {
+  position: relative;
+  width: 1220px;
+  height: 680px;
+  background-color: #929497;
+  margin: 0 auto;
+}
+
+.photo-card-photo {
+  position: absolute;
+  width: 780px;
+  height: 544px;
+  background-color: #E0E0E0;
+  top: 68px;
+  left: 40px;
+}
+
+.photo-card-text-title {
+  position: absolute;
+  color: black;
+  font-family: Roboto;
+  font-size: 40px;
+  margin: 15 25 15 25;
+}
+
+.photo-card-text {
+  height: 544px;
+  width: 320px;
+  position: absolute;
+  background-color: #F2F2F2;
+  top: 68px;
+  right: 40px;
+}
+
+.photo-card-text-text {
+  position: absolute;
+  font-family: Roboto;
+  font-size: 18px;
+  margin: 70 25 15 25;
+}
+
+.photo-card-text-location {
+  position: absolute;
+  font-family: Roboto;
+  font-size: 18px;
+  bottom: 20px;
+  left: 25px;
+}
+
+.bottom-wrapper {
+  width: 80%;
+  height: 100px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blue;
+}
