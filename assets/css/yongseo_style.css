@@ -74,6 +74,7 @@ html, body {
   font-size: 40px;
   text-align: center;
   margin-top: 10px;
+  letter-spacing: 0.03em;
 }
 
 #ld-photo-text {
@@ -137,27 +138,23 @@ html, body {
 
 #bottom-wrapper {
   width: 80%;
-  height: 200px;
+  height: 150px;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
-  background-color: teal;
   margin-bottom: 20px;
 }
 
 #bottom-text-major {
-  position: absolute;
-  background-color: blue;
   width: 250px;
-  height: 4%;
-  left: 50%;
-  transform: translateX(-50%);
+  border-top: 2px solid #929497;
 }
 
 #bottom-pictures {
   float: left;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
+  display: inline-block;
 }
 
 #bottom-contact {
@@ -169,7 +166,17 @@ html, body {
 
 #bottom-about {
   font-family: 'Roboto', sans-serif;
+  display: inline-block;
   float: left;
   font-size: 20px;
   margin-left: 30px;
+}
+
+#bottom-text-minor {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  position: relative;
+  margin-top: 10px;
+  width: 180px;
+  border-bottom: 2px solid #929497;
 }
