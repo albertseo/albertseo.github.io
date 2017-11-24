@@ -81,6 +81,7 @@ html, body {
   font-family: 'Roboto', sans-serif;
   width: 785px;
   font-size: 20px;
+  font-weight: 200;
   text-align: center;
   margin: 10 auto 100 auto;
 }
