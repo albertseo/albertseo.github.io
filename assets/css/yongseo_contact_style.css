@@ -2,12 +2,13 @@ html, body {
     width: 100%;
     height: 100%;
     margin: 0px;
+    background-color: #F2F2F2;
 }
 
 #background-gradient {
   width: 100%;
-  height: 100%;
-  background-color: #BDBDBD;
+  height: 80%;
+  background-color: #F2F2F2;
   /*background: linear-gradient(-45deg, #E0E0E0, #828282);*/
 }
 
@@ -96,4 +97,52 @@ html, body {
   background-color: #E0E0E0;
   margin-top: 40px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+#bottom-wrapper {
+  width: 80%;
+  height: 150px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+#bottom-text-major {
+  width: 350px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bottom-link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.bottom-link:visited {
+  color: black;
+}
+
+.bottom-link:link {
+  color: black;
+}
+
+#bottom-text-minor {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  position: relative;
+  margin-top: 10px;
+  width: 180px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#bottom-text-year {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 20px;
 }
