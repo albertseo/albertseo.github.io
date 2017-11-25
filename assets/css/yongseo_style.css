@@ -50,15 +50,20 @@ html, body {
     width: 100%;
     height: 75%;
     position: relative;
-    background-color: #C4C4C4;
+    /*https://get.pxhere.com/photo/landscape-nature-rock-mountain-snow-cloud-black-and-white-white-mountain-range-formation-darkness-black-monochrome-terrain-summit-geology-monochrome-photography-mountainous-landforms-174417.jpg*/
+    background:url("../../images/Half-dome.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-attachment: fixed;
 }
+
 
 #landing-photo-name {
   position: absolute;
   font-size: 50px;
   right: 30px;
   bottom: 25px;
-  color: #424242;
+  color: #E0E0E0;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -101,7 +106,7 @@ html, body {
   background-color: #E0E0E0;
   top: 58px;
   left: 40px;
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .photo-card-text-title {
@@ -119,7 +124,7 @@ html, body {
   background-color: #F2F2F2;
   top: 58px;
   right: 40px;
-  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .photo-card-text-text {
@@ -147,37 +152,34 @@ html, body {
 }
 
 #bottom-text-major {
-  width: 250px;
-  border-top: 2px solid #929497;
+  width: 350px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
 }
 
-#bottom-pictures {
-  float: left;
+.bottom-link {
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  display: inline-block;
+  font-size: 30px;
+  text-decoration: none;
 }
 
-#bottom-contact {
-  display: inline-block;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  margin-left: 30px;
-}
-
-#bottom-about {
-  font-family: 'Roboto', sans-serif;
-  display: inline-block;
-  float: left;
-  font-size: 20px;
-  margin-left: 30px;
+.bottom-link:visited {
+  color: black;
 }
 
 #bottom-text-minor {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 25px;
   position: relative;
   margin-top: 10px;
   width: 180px;
-  border-bottom: 2px solid #929497;
+  margin: 0 auto;
+}
+
+#bottom-text-year {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
