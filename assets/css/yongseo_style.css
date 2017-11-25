@@ -164,10 +164,16 @@ html, body {
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   text-decoration: none;
+  transition: 0.2s;
 }
 
 .bottom-link:visited {
   color: black;
+}
+
+.bottom-link:hover {
+  color: #828282;
+  transition: 0.2s;
 }
 
 .bottom-link:link {
