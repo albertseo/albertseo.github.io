@@ -3,6 +3,7 @@ html, body {
     height: 100%;
     margin: 0px;
     background-color: #F2F2F2;
+    font-family: 'Lato', sans-serif;
 }
 
 .navbar {
@@ -53,7 +54,7 @@ html, body {
     position: relative;
     /*https://get.pxhere.com/photo/landscape-nature-rock-mountain-snow-cloud-black-and-white-white-mountain-range-formation-darkness-black-monochrome-terrain-summit-geology-monochrome-photography-mountainous-landforms-174417.jpg*/
     background:url("../../images/Half-dome.jpg") no-repeat;
-    background-position: top right;
+    background-position: 0px 0px right;
     background-attachment: fixed;
 }
 
@@ -64,7 +65,6 @@ html, body {
   right: 30px;
   bottom: 25px;
   color: #E0E0E0;
-  font-family: 'Roboto', sans-serif;
 }
 
 #landing-photo-description-wrapper {
@@ -75,7 +75,6 @@ html, body {
 }
 
 #ld-photo-title {
-  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   text-align: center;
   margin-top: 10px;
@@ -83,7 +82,6 @@ html, body {
 }
 
 #ld-photo-text {
-  font-family: 'Roboto', sans-serif;
   width: 785px;
   font-size: 20px;
   font-weight: 200;
@@ -114,7 +112,6 @@ html, body {
 .photo-card-text-title {
   position: absolute;
   color: black;
-  font-family: Roboto;
   font-size: 40px;
   margin: 15 25 15 25;
 }
@@ -131,14 +128,12 @@ html, body {
 
 .photo-card-text-text {
   position: absolute;
-  font-family: Roboto;
   font-size: 18px;
   margin: 70 25 15 25;
 }
 
 .photo-card-text-location {
   position: absolute;
-  font-family: Roboto;
   font-size: 18px;
   bottom: 20px;
   left: 25px;
@@ -155,14 +150,12 @@ html, body {
 
 #bottom-text-major {
   width: 350px;
-  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   text-align: center;
   margin: 0 auto;
 }
 
 .bottom-link {
-  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   text-decoration: none;
   transition: 0.2s;
@@ -182,7 +175,6 @@ html, body {
 }
 
 #bottom-text-minor {
-  font-family: 'Roboto', sans-serif;
   font-size: 25px;
   position: relative;
   margin-top: 10px;
@@ -192,7 +184,6 @@ html, body {
 }
 
 #bottom-text-year {
-  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 20px;
 }
