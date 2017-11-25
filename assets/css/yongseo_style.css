@@ -53,8 +53,7 @@ html, body {
     position: relative;
     /*https://get.pxhere.com/photo/landscape-nature-rock-mountain-snow-cloud-black-and-white-white-mountain-range-formation-darkness-black-monochrome-terrain-summit-geology-monochrome-photography-mountainous-landforms-174417.jpg*/
     background:url("../../images/Half-dome.jpg") no-repeat;
-    background-size: 100% 100%;
-    background-position: 0px 0px;
+    background-position: top right;
     background-attachment: fixed;
 }
 
