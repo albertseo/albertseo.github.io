@@ -107,8 +107,15 @@ html, body {
 .photo-card-text-title {
   position: absolute;
   color: black;
-  font-size: 40px;
+  font-size: 35px;
   margin: 15 25 15 25;
+}
+
+#details {
+  color: #C4C4C4;
+  font-size: 15px;
+  margin-top: 2px;
+
 }
 
 .photo-card-text {
@@ -124,7 +131,7 @@ html, body {
 .photo-card-text-text {
   position: absolute;
   font-size: 18px;
-  margin: 70 25 15 25;
+  margin: 120 25 15 25;
 }
 
 .photo-card-text-location {
