@@ -61,7 +61,7 @@ html, body {
 }
 
 .facebook {
-  background-color: #4468b0;
+  background-color: #71A7F0;
   float: left;
 }
 
@@ -80,8 +80,7 @@ html, body {
 }
 
 .insta {
-  /*background-color: #C1558B;*/
-  background: linear-gradient(45deg, #FCCC63, #C1558B);
+  background: linear-gradient(20deg, #FCCC63, #cd486b);
   margin-left: 30px;
 }
 
