@@ -18,4 +18,13 @@ $(document).ready(function() {
     $('.navbar').css("display", "none");
   })
 
+  // jQuery Function Number 6
+  $("#details").hover(
+    function() {
+      $("#extra").show();
+    }, function() {
+      $("#extra").hide();
+    }
+  );
+
 });
