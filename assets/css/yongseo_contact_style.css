@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     margin: 0px;
     background-color: #F2F2F2;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Lato', sans-serif;
 }
 
 #background-gradient {
@@ -126,7 +126,6 @@ html, body {
 }
 
 #card-text {
-  font-family: 'Roboto', sans-serif;
   font-size: 48px;
 }
 
@@ -158,14 +157,12 @@ html, body {
 
 #bottom-text-major {
   width: 350px;
-  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   text-align: center;
   margin: 0 auto;
 }
 
 .bottom-link {
-  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   text-decoration: none;
   transition: 0.2s;
@@ -185,7 +182,6 @@ html, body {
 }
 
 #bottom-text-minor {
-  font-family: 'Roboto', sans-serif;
   font-size: 25px;
   position: relative;
   margin-top: 10px;
@@ -195,7 +191,6 @@ html, body {
 }
 
 #bottom-text-year {
-  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 20px;
 }
