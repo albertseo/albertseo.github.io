@@ -116,6 +116,7 @@ html, body {
   font-size: 15px;
   margin-top: 2px;
   cursor: pointer;
+  width: 50px;
 }
 
 #extra {
@@ -123,6 +124,7 @@ html, body {
   font-size: 15px;
   display: none;
   margin-top: 10px;
+  transition: 0.2s;
 }
 
 .photo-card-text {

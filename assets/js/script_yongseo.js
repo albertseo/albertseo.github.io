@@ -21,9 +21,11 @@ $(document).ready(function() {
   // jQuery Function Number 6
   $("#details").hover(
     function() {
+      $("#extra").css("opacity", 0);
       $("#extra").show();
+      $("#extra").animate({ opacity:1 }, 100);
     }, function() {
-      $("#extra").hide();
+      $("#extra").animate({ opacity:0 }, 3);
     }
   );
 
