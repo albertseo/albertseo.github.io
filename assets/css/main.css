@@ -91,7 +91,7 @@ a {
 }
 
 .project_title_link {
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 
 .project_text {
@@ -100,4 +100,5 @@ a {
 
 .extra_link {
 	color: #90BCBB;
+	font-weight: bold;
 }
