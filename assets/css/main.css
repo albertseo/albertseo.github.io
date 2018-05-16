@@ -1,7 +1,7 @@
 html, body {
 	width: 100%;
 	height: 100%;
-	background-color: #E5E5E5;
+	background-color: #ECEFF4;
 	margin: 0px;
 	padding: 0px;
 }
@@ -64,7 +64,7 @@ html, body {
 
 a {
 	color: #2E609E;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 .title {
@@ -90,6 +90,14 @@ a {
 	color: #2E609E;
 }
 
+.project_title_link {
+	font-weight: bold;
+}
+
 .project_text {
 	padding-left: 1em;
+}
+
+.extra_link {
+	color: #90BCBB;
 }
