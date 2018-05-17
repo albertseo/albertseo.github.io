@@ -102,3 +102,22 @@ a {
 	color: #90BCBB;
 	font-weight: bold;
 }
+
+/* Potpourri Page CSS */
+.potpourri_title {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	color: #2E609E;
+	font-size: 1.25em;
+	margin-bottom: .5em;
+	display: flex;
+	flex-direction: row;
+}
+
+.potpourri_title:last-child {
+	margin-bottom: 1em;
+}
+
+.date {
+	color: #3B4252;
+	font-size: 1em;
+}
