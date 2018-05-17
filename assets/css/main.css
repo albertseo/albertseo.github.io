@@ -46,6 +46,8 @@ html, body {
 	margin-left: 10px;
 	align-self: center;
 	font-weight: 600;
+  color: #3B4252;
+	text-decoration: none;
 }
 
 #header_links {
@@ -90,9 +92,9 @@ a {
 	color: #2E609E;
 }
 
-.project_title_link {
-	/* font-weight: bold; */
-}
+/* .project_title_link {
+	font-weight: bold;
+} */
 
 .project_text {
 	padding-left: 1em;
@@ -120,4 +122,15 @@ a {
 .date {
 	color: #3B4252;
 	font-size: 1em;
+}
+
+/* Podcast Page CSS */
+#podcast_list {
+	margin-top: 1em;
+}
+
+.podcast_ul {
+	margin-top: 0px;
+	margin-bottom: .5em;
+
 }
