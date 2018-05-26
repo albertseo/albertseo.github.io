@@ -133,5 +133,20 @@ a {
 .podcast_ul {
 	margin-top: 0px;
 	margin-bottom: .5em;
+}
 
+li {
+	margin-bottom: .1em;
+}
+
+/* Food Page CSS */
+.food_li_text {
+	color: #9DA7B9;
+	margin-left: .5em;
+	float: rightdd;
+}
+
+.food_li_wrapper {
+	display: flex;
+	flex-direction: row;
 }
