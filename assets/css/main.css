@@ -24,7 +24,7 @@ html, body {
 	margin: 0px;
 	padding: 0px;
 
-	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-family: 'B612', sans-serif;
 	background-color: var(--main-background-color);
 }
 
@@ -35,58 +35,57 @@ html, body {
 }
 
 #main_content {
-	max-width: 800px;
-	margin-top: 60px;
-	margin-left: 20px;
-	margin-right: 20px;
+	max-width: 600px;
+	margin: 60px 20px 20px 20px;
 }
 
 #header {
 	width: 100%;
 	height: 37px;
-	font-size: 2.25em;
-}
-
-#header_text {
-	margin-left: 10px;
+	font-size: 1.7em;
   color: var(--main-header-color);
-	text-decoration: none;
 }
 
 #line {
 	border: 1.5px solid var(--main-header-color);
-	margin: 15px 0 20px 0;
+	margin: 10px 0 15px 0;
 }
 
-a {
+li a {
 	color: var(--main-link-color);
+	text-decoration: none;
+}
+
+li a:hover {
+	border-bottom: solid 2px var(--main-link-color);
+}
+
+#projects li {
+	list-style-type: none;
 }
 
 .title {
-	font-size: 1.5em;
+	font-size: 1.1em;
 	color: var(--main-title-color);
-	font-weight: 600;
-	font-style: italic;
 	margin-bottom: .2em;
 }
 
-.content_text {
-	font-size: 1.25em;
-	color: var(--main-text-color);
-	font-weight: 500;
-	margin-bottom: .625em;
-	padding-left: 1em;
-}
-
-.project_title {
+.highlight {
 	color: var(--main-title-color);
 }
 
-.project_text {
-	padding-left: 1em;
+.text {
+	font-size: 1.1em;
+	color: var(--main-text-color);
+	margin-bottom: .625em;
 }
 
 .footer_link {
+	font-size: 1.2em;
 	color: var(--main-title-color);
-	font-weight: 600;
+	text-decoration: none;
+}
+
+.footer_link:hover {
+	border-bottom: solid 2px var(--main-title-color);
 }
